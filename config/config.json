@@ -8,16 +8,16 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "root",
-    "password": "root",
-    "database": "testdb",
-    "host": "localhost",
+    "username": "bb47a2a289f653",
+    "password": "f34e1165",
+    "database": "heroku_b10e954d6b32f48",
+    "host": "us-cdbr-iron-east-01.cleardb.net",
     "port": 3307,
-    "dialect": "mysql",
+    "dialect": "postgres",
     "logging": false
   },
   "production": {
     "use_env_variable": "JAWSDB_URL",
-    "dialect": "mysql"
+    "dialect": "postgres"
   }
 }
