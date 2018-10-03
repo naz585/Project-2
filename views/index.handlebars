@@ -111,6 +111,15 @@
           </div>
           <button id="submit" class="btn btn-primary float-right">Submit</button>
         </form>
+
+        <form class="create-update-form" action="/create" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required="required /"><br>
+        <label for ="password">Password:</label>
+        <input type="password" name="password" required="required /">
+        <input type="submit" value="Sumit" />
+        </form>
+
         <h3>Examples:</h3>
         <ul id="example-list" class="list-group">
           {{#each examples}}
