@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-=======
-
 :root {
   --red: #FF2100;
   --blue:#0044B2;
@@ -12,8 +9,6 @@
   background-color : var(--blue);
  }
 
-
->>>>>>> Stashed changes
 .list-group-item {
   line-height: 2.5;
 }
