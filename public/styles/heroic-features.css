@@ -5,43 +5,21 @@
  */
 
 body {
-  background-color: whitesmoke;
+  background-color: rgba(230, 31, 31, 0.938);
   padding-top: 54px; 
   font-family: 'PT Serif', serif;
-  background-image: url("https://image.shutterstock.com/image-vector/american-flag-on-transparent-background-260nw-400857505.jpg");
-}
-.jumbotron my-4{
-  margin-right: 28px;
-  margin-top: 28px;
-  background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Ffarm4.staticflickr.com%2F3359%2F4596248787_3740cc170e_b.jpg");
+  background-image: url("https://farm4.staticflickr.com/3359/4596248787_3740cc170e_b.jpg");
   background-repeat: no-repeat;
-  background-position: top; 
-  background-attachment: fixed;
-  background-size: 100%;
-  background:linear-gradient(hsla(241, 95%, 48%, 0.863), (0.0, 0.0, 0.0, 0.2), url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Ffarm4.staticflickr.com%2F3359%2F4596248787_3740cc170e_b.jpg");   
+  background-position: 45% -110%; 
+ opacity: 0.8;
+  filter: alpha(opacity=80);
+  
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
-    }
-}
-
-.card {
-  height: 100%;
-  font-family: 'PT Serif', serif;
-  color: whitesmoke;
-  background-color: blue
-  
-}
-
-.py-5 {
-  text-align: center;
-  text-shadow: 1px 1px #ffffff;
-}
-.create-update-form {
-  padding: 25px;
-  margin: 25px;
-  background: #eceff1;
-  border: 1px black solid;
-}
+   }
+  }
+ 
+ 
