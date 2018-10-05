@@ -1,23 +1,23 @@
 :root {
-  --red: #FF2100;
-  --blue:#0044B2;
-  --white:#FFFFF0;
- }
+  red:#D42C13;
+  white:#FFFFF0
+  blue:#1048A1;
+}
  
- 
- .header {
-  background-color : var(--blue);
- }
 
+<<<<<<< HEAD
+body{
+  color:#1048A1;
+}
+
+=======
+>>>>>>> b4d07120b5b98f2f15e1affc1185284d7f965f05
 .list-group-item {
   line-height: 2.5;
 }
-body{
-  color:#F4FFEB;
-}
 
 .background{
-  color:#F4FFEB;
+  color:#FFFFF0;
   background-color: #1048A1;
 
 }
@@ -36,6 +36,6 @@ body{
 .navbar-brand{
   color:#D42C13;
 }
-.py-5{
+.py-5bg-dark{
   color:#0C3B87;
 }
