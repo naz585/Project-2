@@ -16,6 +16,7 @@ Team - 4
 
     For a full description of the GOAT Voter App, please visit the project page:
     https://github.com/naz585/Project-2
+    www.goatvoter.org
 
  * Requirements:
    . mysql
@@ -29,20 +30,30 @@ Team - 4
 
  * Configuration
 
- * Deployment:
-   The App was built using: 
+ * The App was built using
+   Front End:
+   . Handlebars
+   . Bootstrap
+   . CSS
+   . Parallax
+
+   Back End:
    . Node.js
    . Express
    . Sequelize
    . Google Civic Information API 
-   . MongoDB 
+
+   Deployment:
+   . Heroku
+   . Google Domain (www.goatvoter.org)
+   . https://docs.google.com/spreadsheets/d/11XD-WNjtNo3QMrGhDsiZH9qZ4N8RYmfpszJOZ_qH1g8/edit#gid=0
+
 
  * Contributers:
    The GOAT Voter App was developed by:
-   . Richard Bunnicelli -
-   . Ghislaine Georges - 
+   . Richard Bunnicelli - https://github.com/rbunnicelli
+   . Ghislaine Georges - https://github.com/ggeorges01
    . Mohammed Islam - https://github.com/naz585/Project-2
-   . Sulai Sivadel -
+   . Sulai Sivadel - https://github.com/Sulai3030
    
-
 Push test
