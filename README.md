@@ -1,88 +1,59 @@
-<p align="center"><img src="http://chriscourses.com/images/cc-voyager.svg"></p>
+# Project-2
+Team - 4
+ * Introduction
+    The purpose of the GOAT Voter APP is to provide a one-stop platform where individuals
+    can search and access information about candidates that are running for political offices anywhere in the United States.
 
-## About Voyager
+*   The GOAT Voter App is a useful tool that streamlines information and helps to increase voter participation.
 
-Voyager is a Node and SQL based web application framework that provides everything you need to produce robust, scalable, database-driven web apps, including:
+*   The App will allow users to create a user name and pass word to store their search history
 
-* Built-in user authentication (opt-in)
-* [Simplistic database migrations (Knex)](http://knexjs.org/)
-* [Easy-to-use ORM (Sequelize)](http://docs.sequelizejs.com/)
-* [Clean, full-featured layout templating (Handlebars)](http://handlebarsjs.com/)
-* [Robust front-end build system (Webpack)](https://webpack.js.org/)
-* Modern ES6 syntax
+*   How the GOAT Voter App works:
+    By entering their zip code in a search button, users will be able to search and access detailed information about all candidates that are running for elections in their disctrict. 
+    In addition, users can enter their exact address to:
+     . find out where their polling site is located, 
+     . request for free transportation on election day.
 
-Built on top of Express, and modeled after Rails and Laravel, Voyager provides a complete solution to getting up and running with a user-based app as quickly as possible.
+    For a full description of the GOAT Voter App, please visit the project page:
+    https://github.com/naz585/Project-2
+    www.goatvoter.org
 
-## Getting Started
+ * Requirements:
+   . mysql
+   
+ * Recommended modules
+ * Installation:
+   . npm install body-parser
+   . npm install dotenv
+   . npm install express-handlebars
 
-1. Download the [Voyager command line interface (CLI)](<(https://github.com/chriscourses/voyager-cli)>) with NPM:
 
-        npm install -g voyager-cli
+ * Configuration
 
-2. Create a new Voyager project, with or without auth:
+ * The App was built using
+   Front End:
+   . Handlebars
+   . Bootstrap
+   . CSS
+   . Parallax
 
-         voyager new newApp
+   Back End:
+   . Node.js
+   . Express
+   . Sequelize
+   . Google Civic Information API 
 
-    or
+   Deployment:
+   . Heroku
+   . Google Domain (www.goatvoter.org)
+   . https://docs.google.com/spreadsheets/d/11XD-WNjtNo3QMrGhDsiZH9qZ4N8RYmfpszJOZ_qH1g8/edit#gid=0
 
-         voyager new newApp --auth
 
-    _Notice: You must run the built-in Knex migrations and add a .env file with valid credentials for the auth version to work. Further auth related instructions can be found under **Auth Setup** below._
-
-3. Change directory to `newApp` and start the Voyager server:
-
-        cd newApp
-        npm run dev
-
-4. Your app should open up automatically at `http://localhost:3001` and you should see the Voyager start up page.
-
-## Auth Setup
-
-To get started with Voyager's built-in authentication, you must follow a few steps required to connect your app to a database and utilize key functionalities such as email confirmations and password resets.
-
-1. Create a file called `.env` in the root of your newly generated Voyager project
-2. Copy the contents of `.env.example` and paste inside of the newly created `.env` file:
-
-        DB_HOST=
-        DB_USER=
-        DB_PASSWORD=
-        DB_NAME=
-
-        MAILGUN_KEY=
-        MAILGUN_DOMAIN=
-
-3. Create a MySQL database for your app, grab a [Mailgun API key](https://www.mailgun.com/), and insert the corresponding values into the `.env` file. A finished version will look something like this for a local server:
-
-        DB_HOST=localhost
-        DB_USER=root
-        DB_PASSWORD=root
-        DB_NAME=newApp
-
-        MAILGUN_KEY=key-kfvud83k3kf3vbn22k223222
-        MAILGUN_DOMAIN=mailgun.yourdomain.com
-
-4. Install knex if you haven't already:
-
-        npm install knex -g
-
-5. Run knex migrations:
-
-        knex migrate:latest
-
-6. Restart the Voyager server:
-
-        npm run dev
-
-You should now have a fully functioning app with auth features such as user registration, user login, email confirmation, and password reset functionality. For more information and instruction regarding Voyager auth, check the [Chris Courses YouTube channel](https://www.youtube.com/c/chriscourses) for Voyager tutorials and more.
-
-## Quick Docs
-
-#### Knex Migration API
-
-Run Migrations: `knex migrate:latest`
-
-Rollback Last Migrations: `knex migrate:rollback`
-
-## License
-
-Voyager is an open-source framework licensed under the [MIT License](https://opensource.org/licenses/MIT).
+ * Contributers:
+   The GOAT Voter App was developed by:
+   . Richard Bunnicelli - https://github.com/rbunnicelli
+   . Ghislaine Georges - https://github.com/ggeorges01
+   . Mohammed Islam - https://github.com/naz585/Project-2
+   . Sulai Sivadel - https://github.com/Sulai3030
+   
+Push test
