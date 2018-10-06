@@ -1,0 +1,37 @@
+/* :root {
+    red:#D42C13;
+    white:#FFFFF0;
+    blue:#1048A1;
+  }
+    */
+   body{
+    color:#1048A1;
+  }
+   .list-group-item {
+    line-height: 2.5;
+  }
+   .background{
+    color:#FFFFF0;
+    background-color: #1048A1;
+   }
+  .fixed-top{
+    color: #D42C13;
+  }
+  .my-4{
+    color:#1048A1;
+  }
+  .card-body{
+    color:#1048A1;
+  }
+  .form-group{
+    color:#1048A1;
+  }
+  .navbar-brand{
+    color:#D42C13;
+  }
+  .py-5bg-dark{
+    color:#0C3B87;
+  }
+  .card {
+    height: 100%;
+  }
