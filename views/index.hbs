@@ -1,0 +1,110 @@
+<div class="container spacer"></div>
+<div class="container">
+<div class="row mb-5">
+    <div class="col-md-12">
+            <div class="text-white text-center blue-gradient rgba-stylish-strong py-5 px-4">
+                <div class="py-5">
+
+                    <!--Content-->
+                        <h6 class="orange-text font-bold"><i class="fa fa-bell-o"></i></h6>
+                        {{#if login}}
+                        <h2 class="card-title pt-3 mb-5 font-bold text-white">Welcome {{ user }}</h2>
+                        {{else}}
+                        <h2 class="card-title pt-3 mb-5 font-bold text-white">Welcome Voter</h2>
+                        {{/if}}
+                       <p class="lead">This is your one-stop destination where you will find all the information you need to become <i><b>The Greatest Voter Of All Time</b></i>! </p>
+                        <a class="btn scroll peach-gradient" href="#officials"><i class="fa fa-clone left"></i> Elected Official</a>
+                        <a class="btn scroll peach-gradient" href="#polling"><i class="fa fa-clone left"></i> polling Locations</a>
+                        <a class="btn scroll peach-gradient" href="#candidates"><i class="fa fa-clone left"></i> Candidates</a>
+                        <a class="btn scroll peach-gradient" href="#info"><i class="fa fa-clone left"></i> Voting Information</a>
+                    <!--Content-->
+
+                </div>
+            </div>
+     
+    </div>
+</div>
+
+    
+</div>
+
+<div class="container spacer"></div>
+
+
+
+<div id="officials" class="container officials sunny-morning-gradient">
+    <a class="btn-floating btn-sm heavy-rain-gradient" href="#theGoat"><i class="fa  fa-level-up"></i></a>
+   <h2 class="text-white text-center">Search for elected officials in your area</h2>
+   <a class="btn-floating btn-sm heavy-rain-gradient" href="#polling"><i class="fa fa-level-down"></i></a>
+   <form class="form-inline md-form mr-auto mb-4 text-center col-md-4 mx-auto">
+    <input id="userZip" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+    <button id="submitUserZip" class="btn aqua-gradient btn-rounded btn-sm my-0 text-center" type="submit">Search</button>
+</form>
+
+<div id="searchLocation" class="container" >
+
+    
+</div>
+<div class="container">
+<div id="cardLoop" class="row">
+
+</div>
+</div>
+</div>
+<div class="container spacer"></div>
+
+<div id="polling" class="container polling cloudy-knoxville-gradient">
+    <a class="btn-floating btn-sm heavy-rain-gradient" href="#officials"><i class="fa  fa-level-up"></i></a>
+    <h2 class="text-default text-center">Search for your nearest polling location</h2>
+    <a class="btn-floating btn-sm heavy-rain-gradient" href="#candidates"><i class="fa fa-level-down"></i></a>
+    <form class="form-inline md-form mr-auto mb-4 text-center col-md-4 mx-auto">
+    <input id="userAddress" class="form-control mr-sm-2 " type="text" placeholder="Search" aria-label="Search">
+    <button id="userAddressSubmit" class="btn aqua-gradient btn-rounded btn-sm my-0" type="submit">Search</button>
+</form>
+<div id="searchLocation2"></div>
+
+<div id="location"></div>
+
+<div id="map"></div>
+</div>
+ <script>
+      
+    </script>
+
+
+</div>
+
+<div class="container spacer"></div>
+<div id= "candidates" class="container candidates young-passion-gradient">
+    <a class="btn-floating btn-sm heavy-rain-gradient" href="#polling"><i class="fa  fa-level-up"></i></a>
+    <h2 class="text-white text-center">Search for current candidates running</h2>
+    <a class="btn-floating btn-sm heavy-rain-gradient" href="#info"><i class="fa fa-level-down"></i></a>
+    <form class="form-inline md-form text-center col-md-4 mx-auto">
+    <input id="userAddress2" class="form-control mr-sm-2 text-center" type="text" placeholder="Search" aria-label="Search">
+    <button id="userAddressSubmit2" class="btn aqua-gradient btn-rounded btn-sm my-0 text-center" type="submit">Search</button>
+</form>
+
+<div id="candidatesSearch"></div>
+</div>
+
+
+<div class="container spacer"></div>
+
+<div id= "info" class="container info blue-gradient">
+    <a class="btn-floating btn-sm heavy-rain-gradient" href="#candidates"><i class="fa fa-level-up"></i></a>
+    <h2 class="text-white text-center">More voting information</h2>
+    <h3>Click here if you need to register</h3>
+    <form action="https://vote.gov" target="_blank">
+    <button class="btn peach-gradient btn-rounded">Vote.org</button>
+    </form>
+    <h3>Check your state voter laws</h3>
+    <form action="http://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx#Laws%20in%20Effect" target="_blank">
+    <button class="btn peach-gradient btn-rounded">Voter Laws</button>
+    </form>
+ <h3>Voters with disabilities </h3>
+    <form action="https://www.usa.gov/election-day#item-212487" target="_blank">
+    <button class="btn peach-gradient btn-rounded">Voter Accessibility</button>
+    </form>
+
+</div>
+<div class="container spacer"></div>
