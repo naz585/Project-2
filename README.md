@@ -1,5 +1,5 @@
-# Project-2
-Team - 4
+# GoatVoter
+
  * Introduction
     The purpose of the GOAT Voter APP is to provide a one-stop platform where individuals
     can search and access information about candidates that are running for political offices anywhere in the United States.
@@ -55,5 +55,3 @@ Team - 4
    . Ghislaine Georges - https://github.com/ggeorges01
    . Mohammed Islam - https://github.com/naz585/Project-2
    . Sulai Sivadel - https://github.com/Sulai3030
-   
-Push test
